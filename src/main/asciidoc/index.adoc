@@ -1,7 +1,6 @@
-:backend: html5
-
 = Book Title
 :doctype: book
+:leveloffset: +1
 
 include::chapter-1.adoc[]
 
