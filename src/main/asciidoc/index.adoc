@@ -1,0 +1,8 @@
+:backend: html5
+
+= Book Title
+:doctype: book
+
+include::chapter-1.adoc[]
+
+include::chapter-2.adoc[]

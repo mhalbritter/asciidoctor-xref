@@ -1,0 +1,16 @@
+plugins {
+    id 'org.asciidoctor.jvm.convert' version '3.3.2'
+}
+
+asciidoctor {
+    sourceDir file('src/main/asciidoc')
+    sources {
+        include '**/*.adoc'
+    }
+    outputDir  file('build/docs')
+    baseDir file('src/main/asciidoc')
+}
+
+repositories {
+    mavenCentral()
+}
